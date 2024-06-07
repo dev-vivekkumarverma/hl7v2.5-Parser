@@ -37,7 +37,11 @@ Open the `.ipynb` file in Jupyter Notebook and follow the instructions provided 
 ### Example Usage
 
 Here's a brief example of how to use the parser:
-- After cloning the repository, change the `input_file_name` in the `Hl7v2.ipynb` file:
+- After cloning the repository change the directory with following command
+  ```bash
+      cd hl7v2.5-Parser
+  ```
+  then change the `input_file_name` in the `Hl7v2.ipynb` file:
   
 ```python
 input_file_name='hl7v2_test'  # replace with your hl7v2.5 file path
